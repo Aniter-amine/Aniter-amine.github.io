@@ -1,0 +1,56 @@
+h1{
+  color: #7fdbda;
+  padding: 10px;
+  margin-top: 12px;
+  height: 100px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.indexlink{
+  color: blue;
+  text-decoration: none;
+  border: 2px solid black;
+  text-align: center;
+  vertical-align:
+
+  width: 50em
+}
+body{
+  text-align: auto;
+  color: black;
+}
+.animeimg{
+  height: 200px;
+  border: 2px solid black;
+}
+hr{
+  color: #b0cac7;
+  height:2px;border-width:200;color:#b0cac7;background-color:#b0cac7;
+}
+@media (min-width: 600px) {
+  body{
+    background-color: white;
+  }
+}
+@media (max-width: 599px) {
+  body{
+    background: white;
+  }
+}
+#flexbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+#flexbox > div{
+  background-color: #6ebfb5;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+}
+.topanime{
+  text-decoration:underline;
+  text-align: center;
+}
