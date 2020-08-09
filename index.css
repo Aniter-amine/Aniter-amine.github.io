@@ -1,0 +1,41 @@
+#navbarSupportedContent{
+  text-align: left;
+}
+.border{
+  width: 15%;
+}
+.links{
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.next{
+
+}
+.card{
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.cscard{
+  margin-top: 70px;
+}
+#ilike{
+  margin-right: 16px;
+}
+.nav-link{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.media{
+  margin-right: 100px;
+}
+.cards{
+  border: 2px solid black;
+}
