@@ -43,6 +43,9 @@
   display: flex;
   margin: auto;
   border-radius: 20px;
+  padding: 20px;
+  padding-left:
+  
 }
 #nextpreve{
   margin: auto;
@@ -51,6 +54,21 @@
 }
 #contain{
   text-align: center;
+}
+.css-1j77ejl {
+    position: fixed;
+    z-index: 2147483000;
+    cursor: pointer;
+    outline: currentcolor none medium;
+    height: 70px;
+    border-radius: 56px;
+    border: medium none;
+    padding: 0px;
+    transition: box-shadow 0.2s ease 0s, background-color 0.3s ease 0s, opacity 0.2s ease 0s, transform 0.2s ease 0s;
+    animation: 0.3s ease 0s 1 normal none running animation-1nrbrg8;
+    right: 20px;
+    bottom: 20px;
+    box-shadow: rgba(115, 136, 217, 0.3) 0px 3px 5px -1px, rgba(115, 136, 217, 0.14) 0px 6px 10px 0px, rgba(115, 136, 217, 0.12) 0px 1px 18px 0px;
 }
 ...
 module: {
