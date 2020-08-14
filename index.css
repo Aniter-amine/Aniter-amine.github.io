@@ -45,7 +45,7 @@
   border-radius: 20px;
   padding: 20px;
   padding-left:
-  
+
 }
 #nextpreve{
   margin: auto;
@@ -69,6 +69,35 @@
     right: 20px;
     bottom: 20px;
     box-shadow: rgba(115, 136, 217, 0.3) 0px 3px 5px -1px, rgba(115, 136, 217, 0.14) 0px 6px 10px 0px, rgba(115, 136, 217, 0.12) 0px 1px 18px 0px;
+}
+.gradient{
+  background-color: #e9ecef;
+  animation: bganimation 15s infinite;
+  background-size: 1000%;
+  background-position: left;
+  transition: background-position 2s;
+}
+.gradient:hover,
+  .gradient:focus{
+    background-image: linear-gradient(to right,white,#ffffff,#f1f2f6,#c8d6e5,#8395a7,#576574,#222f3e);
+    background-position: right;
+  }
+
+@@keyframes bganimation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+.search-box{
+  transform: translate(-50%,-50%);
+  background: #2f3640;
+  
 }
 ...
 module: {
