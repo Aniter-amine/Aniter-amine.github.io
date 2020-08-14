@@ -94,11 +94,6 @@
     background-position: 0% 50%;
   }
 }
-.search-box{
-  transform: translate(-50%,-50%);
-  background: #2f3640;
-  
-}
 ...
 module: {
   rules: [
